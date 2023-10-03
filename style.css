@@ -1,0 +1,63 @@
+   /* Stilizare formular */
+   body {
+       font-family: Arial, sans-serif;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .grid-container {
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       /* Crează 4 coloane egale */
+       gap: 10px;
+       /* Spațiu între elemente */
+   }
+
+   .grid-item {
+       margin-bottom: 10px;
+       /* Spațiu între rânduri */
+   }
+
+   /* Stilizare suplimentară pentru formular */
+   form {
+       max-width: 800px;
+       /* Măriți lățimea formularului */
+       margin: 0 auto;
+       padding: 20px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       box-shadow: 2px 2px 5px #888;
+   }
+
+   #patientForm {
+       background-color: rgb(227, 227, 227);
+   }
+
+   #patientTable {
+       background-color: rgb(164, 164, 164);
+   }
+
+   label,
+   input {
+       display: block;
+       margin-bottom: 10px;
+   }
+
+   table {
+       width: 100%;
+       border-collapse: collapse;
+       margin-top: 20px;
+
+   }
+
+   th,
+   td {
+       padding: 8px;
+       text-align: left;
+       border-bottom: 1px solid #ddd;
+   }
+
+   th {
+       background-color: #f2f2f2;
+   }

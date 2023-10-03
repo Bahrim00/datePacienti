@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formular Pacienți Stomatologie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formular Pacienți</h1>
+    <form id="patientForm">
+        <div class="grid-container">
+            <div class="grid-item">
+                <label for="nume">Nume si Prenume:</label>
+                <input type="text" id="nume" name="nume" required>
+            </div>
+
+            <div class="grid-item">
+                <label for="varsta">Vârsta:</label>
+                <input type="number" id="varsta" name="varsta" required>
+            </div>
+
+            <div class="grid-item">
+                <label for="problema">Problema:</label>
+                <input type="text" id="problema" name="problema" required>
+            </div>
+
+            <div class="grid-item">
+                <label for="sex">Sex:</label>
+                <input type="text" id="sex" name="sex" required>
+            </div>
+
+            <div class="grid-item">
+                <label for="domiciliu">Domiciliu:</label>
+                <input type="text" id="domiciliu" name="domiciliu" required>
+            </div>
+
+            <div class="grid-item">
+                <label for="telefon">Telefon:</label>
+                <input type="number" id="telefon" name="telefon" required>
+            </div>
+
+            <div class="grid-item">
+                <label for="serieBuletin">Serie Buletin:</label>
+                <input type="text" id="serieBuletin" name="serieBuletin" required>
+            </div>
+
+            <div class="grid-item">
+                <label for="cnp">C N P:</label>
+                <input type="number" id="cnp" name="cnp" required>
+            </div>
+            <input type="submit" value="Adaugă Pacient">
+        </div>
+    </form>
+
+
+    <table id="patientTable">
+        <thead>
+            <tr>
+                <th>Nume</th>
+                <th>Vârsta</th>
+                <th>Problema</th>
+                <th>Sex</th>
+                <th>Domiciliu</th>
+                <th>Telefon</th>
+                <th>Serie Buletin</th>
+                <th>C N P</th>
+                <th>Actiuni</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aici vom afișa pacienții -->
+        </tbody>
+    </table>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
